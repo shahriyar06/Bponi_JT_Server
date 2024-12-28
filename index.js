@@ -11,9 +11,9 @@ const port = process.env.PORT || 5000;
 app.use(cors(
   {
     origin: [
-      "http://localhost:5173"
-    //   "https://prakritik-shongi.web.app",
-    //   "https://prakritik-shongi.firebaseapp.com",
+      "http://localhost:5173",
+      "https://bponi-jt.web.app",
+      "https://bponi-jt.firebaseapp.com",
     ],
   }
 ));
